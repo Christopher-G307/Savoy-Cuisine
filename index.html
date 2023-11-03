@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav>
+        <a href="#home" class="logo">Savoy Cuisine</a>
+        <i id="openMenu" class="fa-solid fa-bars"></i>
+        <a href="#reservation">
+          <i id="utensil" class="fa-solid fa-utensils"></i>
+        </a>
+        <div class="menu">
+          <ul>
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#recipes">recipes</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#events">events</a></li>
+            <li><a href="#team">team</a></li>
+          </ul>
+          <a href="#reservation" class="btn">Reservation</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="home-container" id="home">
+      <div class="swiper home-slide">
+        <div class="swiper-wrapper wrapper">
+          <div class="slide slide-1 overlay swiper-slide">
+            <div class="content">
+              <h3>Made With Love</h3>
+              <h1>Hot and Ready to Serve</h1>
+              <p>
+                Double the pleasure, Double the Greate taste. <br />
+                Our fresh food eclipes the competition.
+              </p>
+            </div>
+          </div>
+
+          <div class="slide slide-2 swiper-slide overlay">
+            <div class="content">
+              <h3>Resturant offers You</h3>
+              <h1>The Best Tasting Experience!</h1>
+              <a href="#reservation" class="btn">Get a Reservation now</a>
+            </div>
+          </div>
+
+          <div class="slide slide-3 swiper-slide overlay">
+            <div class="content">
+              <h3>Hello, We are Savoy Cuisine</h3>
+              <h1>We serve Quality Food</h1>
+              <a href="#menu" class="btn">view Menu</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next swiper-btn"></div>
+        <div class="swiper-button-prev swiper-btn"></div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span>Hello dear</span>
+          <h2>Welcome To Savoy Cuisine</h2>
+          <img src="img/shape-4.png" />
+        </div>
+
+        <div class="content">
+          <div class="about-p">
+            <p>
+              Savoy Cuisine - Five Star Restaurant & Deli: Family Friendly
+              Restaurant in Kemptville Whether you’re looking to switch up your
+              dinner routine by ordering takeout, treat yourself and your
+              friends out to brunch on the weekend, or simply enjoy a dinner out
+              with friends, come visit our family owned and operated restaurant
+              in Kemptville—proud recipient of a TripAdvisor award. For over 25
+              years, Five Star Restaurant & Deli has been serving our community
+              and surrounding areas with tasty specialities like Chinese food,
+              Italian food, pizza, and smoked meats. You’ll have plenty to
+              choose from our diverse menu filled with lots of different
+              flavours and dishes, including a special breakfast menu. As a
+              fully licensed establishment, we offer all domestic beer brands as
+              well as various wine and spirits that are perfect at the end of a
+              long day; we also carry Pepsi products.
+            </p>
+            <img src="img/shape-4.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipes" id="recipes">
+      <div class="sec overlay">
+        <div class="top-arrow"></div>
+        <div class="section-head">
+          <span>Natural Ingredients</span>
+          <h2>Delicious Recipes</h2>
+        </div>
+
+        <div class="bottom-arrow"></div>
+      </div>
+
+      <div class="container">
+        <div class="sub-container">
+          <div class="card">
+            <img src="img/rec-1.jpg" />
+            <span>Start eating better</span>
+            <h4>Daily new fresh menus</h4>
+            <p>
+              Savoy Cuisine helps you treat yourself with a different meal
+              everyday, thanks to our daily changing menus and our awsome
+              creative chefs!
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="img/rec-2.jpg" />
+            <span>Quality is the heart</span>
+            <h4>Fresh Ingredient, Tasty Meals</h4>
+            <p>
+              Who said healthy food can't also be delicious? Our creative chefs
+              use fresh and seasonal ingredients to make the food while keeping
+              it affordable.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="img/rec-3.jpg" />
+            <span>Hot & ready to serve</span>
+            <h4>Creative & Talented Chefs</h4>
+            <p>
+              Savoy Cuisine offers a team of culinary professionals that make
+              delectale dishes at memorable events for both clientele.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+      <div class="sec overlay">
+        <div class="top-arrow"></div>
+        <div class="section-head">
+          <span>Special Selection</span>
+          <h2>From Our Menu</h2>
+          <div class="square-wrapper flex-row">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+        </div>
+
+        <div class="bottom-arrow"></div>
+      </div>
+
+      <div class="menu-tabs flex-row">
+        <div class="menu-tab-item active" data-target="#main-dishes">
+          <i class="fa-solid fa-bowl-food"></i>
+          <span>Main Dishes</span>
+        </div>
+
+        <div class="menu-tab-item" data-target="#starters">
+          <i class="fa-solid fa-utensils"></i>
+          <span>Starters</span>
+        </div>
+
+        <div class="menu-tab-item" data-target="#desserts">
+          <i class="fa-solid fa-ice-cream"></i>
+          <span>Dessert</span>
+        </div>
+
+        <div class="menu-tab-item" data-target="#drinks">
+          <i class="fa-solid fa-martini-glass"></i>
+          <span>Drinks</span>
+        </div>
+      </div>
+
+      <div id="main-dishes" class="menu-tab-content show">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/menu-1.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Uni Egg</h2>
+                <div class="line"></div>
+                <span class="price">R680</span>
+              </div>
+              <div class="description">
+                <p>
+                  sea urchin, champagne beurre blanc, brioche croutons, caviar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/menu-2.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Roasted Spot Prawns</h2>
+                <div class="line"></div>
+                <span class="price">R850</span>
+              </div>
+              <div class="description">
+                <p>rosemary, lemon, extra-virgin olive oil.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/menu-3.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Fried Chicken</h2>
+                <div class="line"></div>
+                <span class="price">R250</span>
+              </div>
+              <div class="description">
+                <p>
+                  Sesame Oil, Butter, chicken. Paprika, garlic powder, Sazon,
+                  onion powder, and black pepper.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/menu-4.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Trio of Bruschetta</h2>
+                <div class="line"></div>
+                <span class="price">R500</span>
+              </div>
+              <div class="description">
+                <p>
+                  Toasted Bruschetta Topped with Roasted Tomato and Bell
+                  Peppers, Roasted Aubergine.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/menu-5.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Salmon Sashimi</h2>
+                <div class="line"></div>
+                <span class="price">R400</span>
+              </div>
+              <div class="description">
+                <p>
+                  Salmon sashimi, gyoza dressing, spring onion, toasted sesame,
+                  nori flakes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/menu-6.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>BBQ Octopus</h2>
+                <div class="line"></div>
+                <span class="price">R790</span>
+              </div>
+              <div class="description">
+                <p>
+                  Grilled gochujang octopus, salsa macha, kewpie mayo, pickled
+                  leeks, bonito flakes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="starters" class="menu-tab-content">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/starter-1.jpeg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Roasted stuffed mushrooms</h2>
+                <div class="line"></div>
+                <span class="price">R430</span>
+              </div>
+              <div class="description">
+                <p>
+                  Mushrooms, olive oil, brown onion, garlic cloves, english
+                  spinach, low-fat ricotta, sunbeam seed mix, lemon rind, baby
+                  rocket leaves, punnet grape tomatoes, balsamic vinegar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/starter-2.jpeg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Tomato & hummus crostini</h2>
+                <div class="line"></div>
+                <span class="price">R300</span>
+              </div>
+              <div class="description">
+                <p>Buguette, garlic clove, tomatoes, fresh basil, hummus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/starter-3.jpeg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Apple and prosciutto bruschetta</h2>
+                <div class="line"></div>
+                <span class="price">R270</span>
+              </div>
+              <div class="description">
+                <p>
+                  Italian bread, garlic clove, parsley leaves, prosciutto,
+                  apple, olive oil, balsamic vinegar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/starter-4.jpeg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Bacon and chive tarts</h2>
+                <div class="line"></div>
+                <span class="price">R180</span>
+              </div>
+              <div class="description">
+                <p>Spray oil, bacon, eggs, salt and pepper, chives, pastry.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="desserts" class="menu-tab-content">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/dessert-1.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Whisky-maple dumplings</h2>
+                <div class="line"></div>
+                <span class="price">R120</span>
+              </div>
+              <div class="description">
+                <p>
+                  self-raising flour, brown sugar, ground ginger, unsalted
+                  butter, milk, eggs, vanilla ice cream, maple syrup, whisky.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/dessert-2.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>White chocolate</h2>
+                <div class="line"></div>
+                <span class="price">R400</span>
+              </div>
+              <div class="description">
+                <p>
+                  CADBURY Baking White Chocolate, unsalted butter, self-raising
+                  flour, plain flour, ground ginger, rggs, caster sugar, pure
+                  cream.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/dessert-3.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Sticky ginger pudding</h2>
+                <div class="line"></div>
+                <span class="price">R370</span>
+              </div>
+              <div class="description">
+                <p>
+                  selft-raising flour, ground ginger, bicarbonate of soda,
+                  muscovado sugar, treacle, unsalted butter, buttermilk, eggs,
+                  uncrystallised ginger, thickened cream or ice cream.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/dessert-4.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Chocolate sponge</h2>
+                <div class="line"></div>
+                <span class="price">R490</span>
+              </div>
+              <div class="description">
+                <p>
+                  eggs, pure icing sugar, unsalted butter, dark cocoa,
+                  cornflour, self-rising flour, thickened cream, coconut cream,
+                  vanilla extract, cherry jam, chocolate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="drinks" class="menu-tab-content">
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/drink-1.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Bellini Breeze</h2>
+                <div class="line"></div>
+                <span class="price">R180</span>
+              </div>
+              <div class="description">
+                <p>Ketel One Peach & Tarragon Syrup, Citrus, Prosecco.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/drink-2.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>The Dove</h2>
+                <div class="line"></div>
+                <span class="price">R150</span>
+              </div>
+              <div class="description">
+                <p>
+                  Malfy Rosa, Aperol Barbier, Grapefruit Syrup, Grapefruit
+                  Juice, Soda Water.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/drink-3.png" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Lemon Verbena Margarita</h2>
+                <div class="line"></div>
+                <span class="price">R200</span>
+              </div>
+              <div class="description">
+                <p>
+                  Rooibos Infused Patron Silver, Cointreau, Citrus, Lemon
+                  Verbena Syrup, Salt Pearls.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-inner">
+            <div class="food-img">
+              <img src="img/drink-4.jpg" />
+            </div>
+            <div class="text">
+              <div class="dish-details">
+                <h2>Pink Ruby</h2>
+                <div class="line"></div>
+                <span class="price">R120</span>
+              </div>
+              <div class="description">
+                <p>
+                  Cranberry Juice, Citrus, Almond Syrup, Strawberry Syrup, Soda
+                  Water.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-wrapper">
+        <a href="#" class="btn">View Full Menu</a>
+      </div>
+    </section>
+
+    <section id="events" class="events-section">
+      <div class="sec">
+        <div class="top-arrow"></div>
+        <div class="section-head">
+          <h2>Events</h2>
+          <div class="square-wrapper flex-row">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+        </div>
+
+        <div class="bottom-arrow"></div>
+
+        <div class="events-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="item swiper-slide">
+                <h4 class="event-name">Human Rights Day</h4>
+
+                <span class="details"
+                  ><i class="fa-regular fa-calendar-days"></i>21-03-2023</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-clock"></i>08:00</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-location-dot"></i>Gauteng,
+                  Honeydew</span
+                >
+
+                <p class="description">
+                  During the day all our valuable customers will get 30% of all
+                  selected meals and also get 10% on their next 5 meals in our
+                  establishments.
+                </p>
+
+                <div class="event-mark"></div>
+              </div>
+
+              <div class="item swiper-slide">
+                <h4 class="event-name">Freedom Party</h4>
+
+                <span class="details"
+                  ><i class="fa-regular fa-calendar-days"></i>27-04-2023</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-clock"></i>10:00</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-location-dot"></i>Gauteng,
+                  Pretoria</span
+                >
+
+                <p class="description">
+                  For this wonderful day, we are having a theme of serving food
+                  that is favoured among all the races of SA and will hosting
+                  some plays, played by the very SA has to offer. Wanna find out
+                  who they?, come find out.
+                </p>
+
+                <div class="event-mark"></div>
+              </div>
+
+              <div class="item swiper-slide">
+                <h4 class="event-name">Mother's Day</h4>
+
+                <span class="details"
+                  ><i class="fa-regular fa-calendar-days"></i>14-05-2023</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-clock"></i>20:00</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-location-dot"></i>South Africa,
+                  SA</span
+                >
+
+                <p class="description">
+                  The day we all those strong women that are our number one
+                  cheerleaders. All the ladies get a 10% off all the meals and
+                  also get a complementary coupon of 35% off to all our patnered
+                  Spa estabilsgments.
+                </p>
+
+                <div class="event-mark"></div>
+              </div>
+
+              <div class="item swiper-slide">
+                <h4 class="event-name">Youth Celebration</h4>
+
+                <span class="details"
+                  ><i class="fa-regular fa-calendar-days"></i>16-06-2023</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-clock"></i>12:00</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-location-dot"></i>Gauteng,
+                  Johannesburg</span
+                >
+
+                <p class="description">
+                  In recognition of Youth Day, youth under the age of 18 pay the
+                  quarter of all prices and the rest of the family get 15% off.
+                </p>
+
+                <div class="event-mark"></div>
+              </div>
+
+              <div class="item swiper-slide">
+                <h4 class="event-name">Father's Day</h4>
+
+                <span class="details"
+                  ><i class="fa-regular fa-calendar-days"></i>18-06-2023</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-clock"></i>20:00</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-location-dot"></i>South Africa,
+                  SA</span
+                >
+
+                <p class="description">
+                  For fathers day we are holding a party at AWOL Paintball Field
+                  and the family also get 40% off, should they choose to enjoy
+                  family activites.
+                </p>
+
+                <div class="event-mark"></div>
+              </div>
+
+              <div class="item swiper-slide">
+                <h4 class="event-name">Nelson Mandela Event</h4>
+
+                <span class="details"
+                  ><i class="fa-regular fa-calendar-days"></i>18-07-2023</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-clock"></i>08:00</span
+                >
+                <span class="details"
+                  ><i class="fa-solid fa-location-dot"></i>South Africa,
+                  SA</span
+                >
+
+                <p class="description">
+                  During this day there will be a big party held at FNB Stadium
+                  where our premium members will get 20% on all the meals. This
+                  event will all SA's up and coming artists. Ranging from music
+                  artists, art galleries, dance crews and more.
+                </p>
+
+                <div class="event-mark"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team-section">
+      <div class="section-head">
+        <h3>Team of Restaurant</h3>
+        <h1>Meet Our Professionals</h1>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+
+        <div class="sub-container">
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="img/chef-1.jpg" />
+            </div>
+
+            <div class="text-wrapper">
+              <h4 class="name">Bobby Price</h4>
+              <h5 class="desc">Executive Chef</h5>
+            </div>
+
+            <ul class="social-links flex-col">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="img/chef-2.jpg" />
+            </div>
+
+            <div class="text-wrapper">
+              <h4 class="name">Connie Stern</h4>
+              <h5 class="desc">Head Chef (Chef de Cuisine)</h5>
+            </div>
+
+            <ul class="social-links flex-col">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="img/chef-3.jpg" />
+            </div>
+
+            <div class="text-wrapper">
+              <h4 class="name">Emanuel Pererra</h4>
+              <h5 class="desc">Deputy Chef (Sous Chef)</h5>
+            </div>
+
+            <ul class="social-links flex-col">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="img/chef-4.jpg" />
+            </div>
+
+            <div class="text-wrapper">
+              <h4 class="name">Byran Stone</h4>
+              <h5 class="desc">Station Chef (Chef de Partie)</h5>
+            </div>
+
+            <ul class="social-links flex-col">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="btn-wrapper">
+          <a href="#" class="btn">View Full Team</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonial">
+      <div class="sec overlay">
+        <div class="top-arrow"></div>
+        <div class="section-head">
+          <span>Rate Our Service</span>
+          <h2>Testimonials</h2>
+        </div>
+        <div class="square-wrapper flex-row">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+        <div class="container">
+          <div class="sub-container">
+            <div class="card">
+              <img src="img/ribbon.png" class="ribbon" />
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <h5>
+                "I've been going here since forever ago. I know to always expect
+                great tasting food at awsome price"
+              </h5>
+              <img src="img/blog1.png" />
+              <p>Raymond Salazar</p>
+            </div>
+
+            <div class="card">
+              <img src="img/ribbon.png" class="ribbon" />
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <h5>
+                "Great food, Great atmosphere and Great service. Highly
+                recommend"
+              </h5>
+              <img src="img/blog2.png" />
+              <p>Kit Fouiza</p>
+            </div>
+
+            <div class="card">
+              <img src="img/ribbon.png" class="ribbon" />
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <h5>
+                "The only thing better than the professionalism is taste of the
+                food"
+              </h5>
+              <img src="img/blog3.png" />
+              <p>Taylor Smith</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-arrow"></div>
+      </div>
+    </section>
+
+    <div class="booking" id="reservation">
+      <div class="sec overlay">
+        <div class="top-arrow"></div>
+        <div class="section-head">
+          <h2 class="res">RESERVATION</h2>
+          <div class="square-wrapper flex-row">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+          <div class="booking-container">
+            <div class="form-info">
+              <div><i class="fa-solid fa-envelope"></i>Goa.@gmail.com</div>
+              <div><i class="fa-solid fa-phone"></i>+011 457 8999</div>
+              <div>
+                <i class="fa-solid fa-clock"></i>Mon - Sun 08:00 to 00:00
+              </div>
+            </div>
+
+            <div class="main-form">
+              <h2>Book Now</h2>
+              <form action="" class="contact">
+                <input
+                  type="text"
+                  name="name"
+                  class="text-box"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  class="text-box"
+                  placeholder="Your Email"
+                  required
+                />
+
+                <input
+                  type="number"
+                  name="number"
+                  class="text-box"
+                  placeholder="Your Phone Number"
+                  required
+                />
+                <input
+                  type="number"
+                  name="guests"
+                  class="text-box"
+                  placeholder="How Many"
+                  required
+                />
+                <input type="date" name="date" class="text-box" required />
+                <input
+                  type="datetime"
+                  name="time"
+                  required
+                  class="text-box"
+                  placeholder="Time"
+                  required
+                />
+
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Special Requests"
+                  required
+                ></textarea>
+
+                <input
+                  type="submit"
+                  name="submit"
+                  class="send-btn"
+                  value="Find Table"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-arrow"></div>
+      </div>
+    </div>
+
+    <section class="footer" id="footer">
+      <div class="mssg-box">
+        <div class="container">
+          <div class="list-links list">
+            <h4>Follow us</h4>
+            <div class="links-box">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="text list">
+            <h2>Gao.</h2>
+            <p>
+              Gao is the perfect resturant to enjoy the finest food with
+              exellent service provided.
+            </p>
+          </div>
+
+          <div class="news-letter list">
+            <h4>Newsletter</h4>
+            <div class="input">
+              <input type="email" placeholder="Subscribe To Our Newsletter" />
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
