@@ -2,15 +2,15 @@ let menuIcon = document.getElementById("openMenu");
 let menu = document.querySelector(".menu");
 
 menuIcon.onclick = () => {
-  menuIcon.classList.toggle("fa-times");
   menu.classList.toggle("active");
 };
 
 let header = document.getElementById("header");
 
 window.onscroll = () => {
-  if (this.scrollY >= 200) {
+  if (this.scrollY >= 50) {
     header.classList.add("active");
+    menu.classList.remove("active");
   } else {
     header.classList.remove("active");
   }
